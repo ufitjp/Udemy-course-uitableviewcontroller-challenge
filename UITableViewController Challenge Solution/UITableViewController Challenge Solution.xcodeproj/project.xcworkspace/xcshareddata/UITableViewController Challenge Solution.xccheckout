@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>DB03A2F2-C91C-43A8-89F4-0ACEF4070791</string>
+	<string>20D48674-60C3-4B0E-820C-02D57CD84C0D</string>
 	<key>IDESourceControlProjectName</key>
 	<string>UITableViewController Challenge Solution</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>CEB3C270-91A9-4210-9C69-904509981BAC</string>
 			<key>IDESourceControlWCCName</key>
-			<string>udemy-uitableview-challenge</string>
+			<string>UITableViewController Challenge Solution</string>
 		</dict>
 	</array>
 </dict>
