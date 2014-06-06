@@ -14,13 +14,13 @@
 		086ABD6619411265005BCB36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 086ABD6519411265005BCB36 /* main.m */; };
 		086ABD6A19411265005BCB36 /* UFLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 086ABD6919411265005BCB36 /* UFLAppDelegate.m */; };
 		086ABD6D19411265005BCB36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086ABD6B19411265005BCB36 /* Main.storyboard */; };
-		086ABD7019411265005BCB36 /* UFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 086ABD6F19411265005BCB36 /* UFLViewController.m */; };
 		086ABD7219411265005BCB36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086ABD7119411265005BCB36 /* Images.xcassets */; };
 		086ABD7919411265005BCB36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086ABD7819411265005BCB36 /* XCTest.framework */; };
 		086ABD7A19411265005BCB36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086ABD5919411265005BCB36 /* Foundation.framework */; };
 		086ABD7B19411265005BCB36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086ABD5D19411265005BCB36 /* UIKit.framework */; };
 		086ABD8319411265005BCB36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 086ABD8119411265005BCB36 /* InfoPlist.strings */; };
 		086ABD8519411265005BCB36 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 086ABD8419411265005BCB36 /* UITableViewController_Challenge_SolutionTests.m */; };
+		086ABD901941DA24005BCB36 /* UFLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 086ABD8F1941DA24005BCB36 /* UFLTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		086ABD6819411265005BCB36 /* UFLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UFLAppDelegate.h; sourceTree = "<group>"; };
 		086ABD6919411265005BCB36 /* UFLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UFLAppDelegate.m; sourceTree = "<group>"; };
 		086ABD6C19411265005BCB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		086ABD6E19411265005BCB36 /* UFLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UFLViewController.h; sourceTree = "<group>"; };
-		086ABD6F19411265005BCB36 /* UFLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UFLViewController.m; sourceTree = "<group>"; };
 		086ABD7119411265005BCB36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		086ABD7719411265005BCB36 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		086ABD7819411265005BCB36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		086ABD8019411265005BCB36 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		086ABD8219411265005BCB36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		086ABD8419411265005BCB36 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		086ABD8E1941DA24005BCB36 /* UFLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFLTableViewController.h; sourceTree = "<group>"; };
+		086ABD8F1941DA24005BCB36 /* UFLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFLTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				086ABD6819411265005BCB36 /* UFLAppDelegate.h */,
 				086ABD6919411265005BCB36 /* UFLAppDelegate.m */,
 				086ABD6B19411265005BCB36 /* Main.storyboard */,
-				086ABD6E19411265005BCB36 /* UFLViewController.h */,
-				086ABD6F19411265005BCB36 /* UFLViewController.m */,
+				086ABD8E1941DA24005BCB36 /* UFLTableViewController.h */,
+				086ABD8F1941DA24005BCB36 /* UFLTableViewController.m */,
 				086ABD7119411265005BCB36 /* Images.xcassets */,
 				086ABD6019411265005BCB36 /* Supporting Files */,
 			);
@@ -252,7 +252,7 @@
 			files = (
 				086ABD6A19411265005BCB36 /* UFLAppDelegate.m in Sources */,
 				086ABD6619411265005BCB36 /* main.m in Sources */,
-				086ABD7019411265005BCB36 /* UFLViewController.m in Sources */,
+				086ABD901941DA24005BCB36 /* UFLTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
